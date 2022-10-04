@@ -1,0 +1,74 @@
+:root {
+  --dark-grey: #232220;
+  --navy: #1d3557;
+  --dark-blue: #457b9d;
+  --light-blue: #a8dadc;
+  --white: #f1faee;
+  --red: #e63946;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--dark-grey);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.all {
+  padding: 10px;
+}
+
+.link-item {
+  display: inline-block;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--dark-blue);
+  margin: 2px;
+}
+
+.num-item {
+  display: inline-block;
+  font-size: 30px;
+  color: var(--dark-blue);
+  padding-right: 10px;
+  margin: 2px;
+}
+
+input {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+  font-size: 30px;
+  color: var(--white);
+
+  border-radius: 10px;
+  border: 4px solid rgba(255, 255, 255, 0.18);
+}
+
+input:focus {
+  border-width: 4px;
+  border-color: var(--red);
+  outline: none;
+}
+
+.jim-day {
+  color: var(--dark-blue);
+}
+
+.date {
+  font-size: 60px;
+  color: var(--dark-blue);
+  display: inline-block;
+  margin: 0px;
+}
+
+.day-sufix {
+  color: var(--dark-blue);
+  display: inline-block;
+}
+
+a:focus {
+  color: var(--red);
+  outline: none;
+}
